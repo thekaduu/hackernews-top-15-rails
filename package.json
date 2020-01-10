@@ -9,7 +9,6 @@
   },
   "version": "0.1.0",
   "devDependencies": {
-    "semantic-ui-sass": "^2.4.2",
     "webpack-dev-server": "^3.10.1"
   }
 }
