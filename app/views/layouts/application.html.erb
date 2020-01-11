@@ -10,27 +10,29 @@
   </head>
 
   <body>
-    <nav class="ui segment">
-      <%= image_tag "logo.jpg", width: 300, height: 60 %>
-    </nav>
+    <main>
+      <nav class="ui segment">
+        <%= image_tag "logo.jpg", width: 300, height: 60 %>
+      </nav>
 
-    <div class="ui segment" id="search-area">
-      <form class="ui form">
-        <div class="ui fluid icon input">
-          <input type="text" placeholder="Search stories">
-          <i class="search link icon"></i>
-        </div>
-      </form>
-    </div>
-
-    <main class="ui grid" id="stories">
-      <div class="row">
-        <div class="column">
-          <h1>Top 15 Hacker News</h1>
-        </div>
+      <div class="ui segment" id="search-area">
+        <form class="ui form">
+          <div class="ui fluid icon input">
+            <input type="text" placeholder="Search stories">
+            <i class="search link icon"></i>
+          </div>
+        </form>
       </div>
 
-      <%= yield %>
+      <div class="ui grid" id="stories">
+        <div class="row">
+          <div class="column">
+            <h1>Top 15 Hacker News</h1>
+          </div>
+        </div>
+
+        <%= yield %>
+      </div>
     </main>
   </body>
 </html>
