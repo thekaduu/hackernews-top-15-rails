@@ -1,0 +1,22 @@
+@mixin story-box() {
+  width: 80%;
+  padding: 1.5rem !important;
+  background-color: #fff;
+
+  p.metadata {
+    font-size: 12px;
+
+    a {
+      text-decoration: underline;
+      color: $secondary-color;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .column {
+    padding: 0 !important;
+  }
+}
