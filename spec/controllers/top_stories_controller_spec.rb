@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe TopStoriesController, type: :controller do
   describe 'GET index' do
-    before { allow(TopStories).to receive(:call).with(nil) { [] } }
+    before { allow(TopStories).to receive(:call) { [] } }
 
     it 'renders index template' do
       get :index

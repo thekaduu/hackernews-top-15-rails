@@ -8,5 +8,30 @@ RSpec.describe TopStories, type: :model do
       expect(described_class).to receive(:new).with('query') { double(call: []) }
       described_class.call('query')
     end
+
+    context 'when query is not provided' do
+      it 'instantes a new instance of the TopStories object without query' do
+        expect(described_class).to receive(:new).with(nil) { double(call: []) }
+        described_class.call
+      end
+    end
+  end
+
+  describe '#call' do
+    let(:query) { nil }
+    subject { described_class.new(query) }
+
+    context 'when query is nil' do
+      it 'invokes StoryRepository' do
+        expect_any_instance_of(StoryRepository).to receive(:top_stories) { [] }
+        described_class.call
+      end
+
+      it 'returns an array of stories' do
+        VCR.use_cassette('success_fetching_top_stories') do
+          expect(subject.call).to be_kind_of(Array)
+        end
+      end
+    end
   end
 end
