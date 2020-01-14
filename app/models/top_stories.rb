@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class TopStories
-  attr_reader :query, :repository
+  attr_reader :query, :repository, :stories
 
   def initialize(query = nil)
     @query = query
@@ -12,7 +12,7 @@ class TopStories
   end
 
   def call
-    top_stories = repository.top_stories
+    StoriesFactory.call(repository.top_stories)
   end
 
   private

@@ -29,7 +29,8 @@ RSpec.describe TopStories, type: :model do
 
       it 'returns an array of stories' do
         VCR.use_cassette('success_fetching_top_stories') do
-          expect(subject.call).to be_kind_of(Array)
+          result = subject.call
+          expect(result[0]).to be_kind_of(Story)
         end
       end
     end

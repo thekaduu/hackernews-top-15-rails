@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 13 Jan 2020 23:31:20 GMT
+      - Tue, 14 Jan 2020 00:02:20 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -36,7 +36,607 @@ http_interactions:
       - max-age=31556926; includeSubDomains; preload
     body:
       encoding: UTF-8
-      string: "[22038496,22039481,22035997,22038144,22036058,22036773,22033792,22037006,22037749,22038317,22037864,22037242,22035961,22033827,22033864,22033602,22038065,22033833,22036941,22035258,22038007,22034516,22036007,22033477,22032133,22032966,22036964,22036765,22034055,22033987,22036989,22019594,22033571,22032217,22037516,22033325,22033996,22032756,22031375,22034291,22034997,22031923,22035367,22034680,22039765,22039299,22027177,22038824,22036178,22031955,22031644,22033273,22034101,22032542,22037788,22025856,22031218,22027459,22028581,22031001,22035010,22037460,22033341,22036473,22035121,22038344,22034876,22036652,22022466,22037947,22027912,22025889,22024758,22037824,22037817,22036656,22025986,22025484,22025460,22039034,22038197,22038491,22036117,22025618,22031518,22025482,22029823,22030962,22027809,22025478,22028422,22030398,22038076,22038005,22035323,22030928,22034695,22037203,22034409,22030083,22034638,22033691,22033518,22026153,22034579,22024947,22026149,22025777,22031916,22016212,22036208,22034436,22033808,22027134,22028319,22024201,22020495,22030874,22031009,22029206,22030094,22027487,22022106,22011358,22021956,22019202,22036581,22019597,22036562,22037350,22027888,22027315,22022598,22027949,22022269,22023490,22025145,22032990,22019530,22030042,22032113,22027709,22037016,22029833,22020179,22020229,22025113,22019925,22021309,22008566,22020796,22027202,22023266,22036595,22032676,22030169,22019936,22013751,22036211,22025961,22023578,22032332,22002062,22025182,22024179,22029116,22021148,22025717,22032348,22026034,22033314,22031736,22025912,22030604,22021769,22028544,22006453,22019627,22024283,22035619,22023531,22011743,22026089,22020259,22031864,22033813,22022935,22026667,22029135,22029099,22034592,22009906,22022830,22028919,22024672,22004066,22028710,22008887,22023495,22009912,22013700,22020511,22022240,22031940,22029763,22006329,22012755,22001529,22010159,22024881,22032518,22031456,22006391,22020285,22004837,22012927,22011251,22023928,22008342,22008142,22011199,22026996,22031113,22020249,22026087,22020160,22012255,22006939,22011798,22008159,22028796,22025500,22003315,22020287,22015700,22033434,22018599,22013797,22013559,22021245,22009523,22028572,22010586,22033523,22015426,22006044,22008146,22001918,22008091,22014316,22025642,22013340,22002818,22004998,22021301,22015231,22012300,22025181,22005495,22012427,22011521,22030508,22024216,22014466,22004133,22019364,22018408,22004869,22008886,22017770,22014404,22021530,22024634,22006910,22017691,22025138,22005050,22008758,22012350,22028498,22017163,22024851,22008203,22010069,22002340,22010217,22014215,22009980,22003279,22022057,22023996,22003621,22027802,22026662,22012326,22004392,22004149,22011592,22024234,22005942,22022789,22019650,22014393,22009241,22003368,22025335,22029086,22023963,22020726,22017714,22017243,22012511,22015072,22008949,22017807,22030649,22019950,22014541,22006129,22001985,22024229,22016254,22006595,22022010,22002734,22024499,22003832,22017308,22005111,22031859,22023437,22021038,22030648,22002272,22023857,22018782,22001822,22008143,22013765,22005181,22006395,22013146,22025471,22021080,22020058,22020001,22022923,22027915,22029735,22002370,22022717,22014260,22027395,22022585,22031123,22020083,22005294,22029121,22031083,22019185,22019163,22024252,22024961,22021970,22003708,22030799,22019802,22004326,22007863,22025365,22030553,22008192,22023589,22002597,22025200,22011867,22020659,22005748,22013576,22028356,22027159,22025705,22021606,22011433,22014662,22001460,22008435,22014548,22024794,22025496,22031634,22012763,22001812,22008363,22019827,22017856,22006033,22021425,22011799,22002816,22007631,22017512,22027050,22011995,22020348,22027026,22017141,22004859,22026436,22013162,22007804,22015498,22002594,22015002,22029563,22014952,22023156,22015756,22025893,22025836,22011713,22014501,22023225,22016031,22002494,22034771,22008704,22001964,22003462,22025314,22019407,22023375,22015076,22011843,22008756,22028726,22017465,22007789,22022144,22007618,22024506,22029736,22024418,22019417,22019400,22001411,22024239,22012278,22019218,22011675,22024946,22004276,22017514,22024804,22004430,22019288,22001711,22002473,22012479,22027093,22023124,22012453,22019642,22019633,22019583,22038463,22022840,22022676,22022405,22014115,22022343,22004390,22019091,22002549,22027180,22013703,22003548,22010713,22020879,22002250,22010323,22013682,22005878,22014160,22020415,22005304,22012330,22002666,22011930,22002755,22002436,22017332,22020336,22017029,22005696,22004126,22011559,22007806,22007418,22014660]"
+      string: "[22038496,22039481,22038144,22035997,22036058,22036773,22033792,22037006,22039950,22037864,22038317,22037749,22037242,22035961,22033827,22033864,22033602,22033833,22038065,22034680,22036941,22034516,22035258,22033477,22038007,22036007,22032966,22032133,22036964,22036765,22034055,22033987,22036989,22019594,22033571,22032217,22033325,22033996,22031375,22037516,22039299,22034291,22031923,22034997,22035367,22027177,22031644,22038133,22031955,22033273,22034101,22036178,22039847,22038824,22037788,22032542,22025856,22039765,22031218,22027459,22028581,22031001,22035010,22037460,22033341,22035121,22036473,22022466,22039508,22034876,22036652,22032756,22027912,22038344,22025889,22037817,22036950,22024758,22025986,22037947,22025484,22025460,22036656,22037824,22031518,22025482,22025618,22029823,22038197,22030962,22036117,22038491,22027809,22039034,22025478,22038005,22030398,22028422,22038076,22035323,22030928,22034579,22030083,22034695,22034409,22033518,22033691,22026153,22034638,22037203,22024947,22026149,22031916,22025777,22016212,22027134,22024201,22028319,22020495,22033808,22034436,22036208,22030874,22031009,22029206,22011358,22022106,22030094,22027487,22021956,22019202,22019597,22027888,22027315,22022598,22022269,22027949,22036581,22023490,22036562,22025145,22037350,22019530,22032990,22027709,22030042,22032113,22029833,22020179,22020229,22025113,22037016,22019925,22008566,22021309,22020796,22027202,22023266,22019936,22030169,22032676,22013751,22036595,22023578,22025961,22002062,22025182,22024179,22032332,22036211,22029116,22021148,22025717,22032348,22026034,22025912,22030604,22031736,22033314,22021769,22006453,22028544,22019627,22011743,22024283,22023531,22026089,22020259,22031864,22035619,22022935,22026667,22009906,22033813,22029135,22029099,22022830,22004066,22028919,22024672,22008887,22028710,22009912,22013700,22023495,22034592,22020511,22022240,22006329,22029763,22001529,22031940,22010159,22012755,22024881,22006391,22032518,22020285,22031456,22004837,22012927,22011251,22023928,22008342,22011199,22008142,22026996,22028796,22020249,22031113,22020160,22026087,22012255,22006939,22011798,22008159,22003315,22015700,22020287,22025500,22018599,22013797,22013559,22021245,22009523,22033434,22010586,22028572,22015426,22006044,22008146,22001918,22008091,22014316,22033523,22002818,22013340,22025642,22004998,22021301,22015231,22012300,22005495,22012427,22025181,22011521,22024216,22030508,22014466,22004133,22019364,22018408,22004869,22008886,22017770,22014404,22021530,22006910,22017691,22024634,22025138,22005050,22008758,22012350,22028498,22017163,22024851,22008203,22010069,22002340,22010217,22009980,22014215,22003279,22022057,22003621,22023996,22027802,22026662,22012326,22004392,22004149,22011592,22005942,22024234,22022789,22014393,22009241,22003368,22025335,22029086,22023963,22019650,22020726,22017714,22017243,22012511,22015072,22008949,22017807,22014541,22019950,22030649,22006129,22001985,22024229,22016254,22006595,22002734,22022010,22003832,22005111,22017308,22024499,22023437,22021038,22031859,22030648,22002272,22001822,22018782,22023857,22008143,22005181,22013765,22006395,22013146,22025471,22021080,22020058,22020001,22022923,22027915,22029735,22002370,22014260,22022717,22022585,22027395,22005294,22020083,22031123,22029121,22019185,22019163,22031083,22021970,22024961,22024252,22003708,22004326,22019802,22007863,22030799,22025365,22008192,22030553,22002597,22023589,22011867,22025200,22020659,22005748,22013576,22028356,22027159,22025705,22011433,22014662,22021606,22001460,22008435,22014548,22024794,22025496,22012763,22001812,22031634,22008363,22019827,22017856,22006033,22021425,22011799,22002816,22007631,22017512,22011995,22020348,22027050,22027026,22004859,22017141,22013162,22007804,22026436,22015498,22002594,22015002,22014952,22029563,22023156,22015756,22025893,22011713,22025836,22014501,22023225,22016031,22002494,22001964,22008704,22003462,22025314,22034771,22019407,22023375,22015076,22011843,22008756,22028726,22017465,22007789,22007618,22022144,22024506,22019417,22029736,22019400,22024418,22001411,22012278,22011675,22019218,22024239,22024946,22004276,22017514,22004430,22024804,22001711,22019288,22002473,22012479,22027093,22012453,22023124,22019642,22019633,22019583,22022840,22022676,22014115,22022405,22004390,22022343,22019091,22002549,22027180,22013703,22003548,22010713,22038463,22020879,22002250,22010323,22013682,22005878,22014160,22005304,22020415,22012330,22002666,22011930,22002755,22002436,22017332,22017029,22020336,22005696]"
     http_version: 
-  recorded_at: Mon, 13 Jan 2020 23:31:20 GMT
+  recorded_at: Tue, 14 Jan 2020 00:02:20 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22038496.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '459'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"coloneltcb","descendants":108,"id":22038496,"kids":[22039069,22039332,22039499,22038578,22040191,22040081,22038759,22038927,22038762,22039773,22040071,22039057,22039725,22039959,22039095,22039193,22038967,22039965,22039974,22039229,22039509,22039540,22039384,22038852,22039596,22039400],"score":234,"time":1578949084,"title":"Visa
+        Buys Plaid","type":"story","url":"https://www.wsj.com/articles/visa-nears-deal-to-buy-fintech-startup-plaid-11578948426"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:21 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22039481.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '308'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"dustinmoris","descendants":10,"id":22039481,"kids":[22040018,22039869,22040105,22040076,22040055],"score":53,"time":1578954754,"title":"Cryptic
+        Rumblings Ahead of First 2020 Patch Tuesday","type":"story","url":"https://krebsonsecurity.com/2020/01/cryptic-rumblings-ahead-of-first-2020-patch-tuesday/"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:22 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22038144.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '418'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"clairity","descendants":69,"id":22038144,"kids":[22039442,22038547,22040111,22039836,22039650,22039803,22038767,22039678,22039696,22039014],"score":136,"time":1578946580,"title":"iOS
+        13 app tracking alert has dramatically cut location data flow to ad industry","type":"story","url":"https://appleinsider.com/articles/20/01/13/app-tracking-alert-in-ios-13-has-dramatically-cut-location-data-flow-to-ad-industry"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:22 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22035997.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '415'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"eusebio","descendants":104,"id":22035997,"kids":[22037823,22036844,22037261,22038000,22036571,22036612,22036926,22039953,22036766,22037303,22037091,22038226,22039608,22037646,22037172,22039666,22038257,22037490,22037104,22037299,22038422,22036945,22036714,22037210],"score":288,"time":1578933814,"title":"How
+        to Invest in Startups","type":"story","url":"https://blog.samaltman.com/how-to-invest-in-startups"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:25 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22036058.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '395'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"hprotagonist","descendants":58,"id":22036058,"kids":[22037088,22036848,22036990,22037284,22036734,22036222,22036235,22036340,22036228,22037968,22036630,22037429,22037402,22036550,22036275],"score":296,"time":1578934167,"title":"1195725856
+        and other mysterious numbers","type":"story","url":"https://chrisdown.name/2020/01/13/1195725856-and-friends-the-origins-of-mysterious-numbers.html"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:26 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22036773.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '513'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6Im5nb2xkYmF1bSIsImRlc2NlbmRhbnRzIjoyMDEsImlkIjoyMjAzNjc3Mywia2lkcyI6WzIyMDM3OTA1LDIyMDM3NTAyLDIyMDM3MjE3LDIyMDM4NjU2LDIyMDM4NzE2LDIyMDM3MzYyLDIyMDM4MjI4LDIyMDM3Njk4LDIyMDM4MTM5LDIyMDM4NTc1LDIyMDM3MjUyLDIyMDM3NDQ3LDIyMDM3MzY2LDIyMDM4Mjg1LDIyMDM3MzIzLDIyMDM5NjE1LDIyMDM3NTg0LDIyMDM3NjU1LDIyMDM4NzE4LDIyMDM4MzQ3LDIyMDM3OTI1LDIyMDM3NTQxLDIyMDM3MjY5LDIyMDM3Nzc0LDIyMDM3NzI5LDIyMDM3Mzc5LDIyMDM4MTcwXSwic2NvcmUiOjI5MiwidGltZSI6MTU3ODkzNzk0OCwidGl0bGUiOiJNZXJjdXJpYWzigJlzIGpvdXJuZXkgdG8gYW5kIHJlZmxlY3Rpb25zIG9uIFB5dGhvbiAzIiwidHlwZSI6InN0b3J5IiwidXJsIjoiaHR0cHM6Ly9ncmVnb3J5c3pvcmMuY29tL2Jsb2cvMjAyMC8wMS8xMy9tZXJjdXJpYWwlMjdzLWpvdXJuZXktdG8tYW5kLXJlZmxlY3Rpb25zLW9uLXB5dGhvbi0zLyJ9
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:26 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22033792.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '366'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"gwgundersen","descendants":46,"id":22033792,"kids":[22035105,22034312,22034364,22034670,22036204,22039584,22034486,22034015,22037942,22038433,22036133,22036816,22035469,22035540,22035101,22036010,22036328],"score":467,"time":1578918154,"title":"Why
+        I Keep a Research Blog","type":"story","url":"http://gregorygundersen.com/blog/2020/01/12/why-research-blog/"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:27 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22037006.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '360'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"moneil971","descendants":36,"id":22037006,"kids":[22040042,22037247,22039975,22037933,22037893,22038101,22039578,22038121,22039642,22037657,22037987,22039529],"score":145,"time":1578939289,"title":"Online
+        speech recognition with wav2letter anywhere","type":"story","url":"https://ai.facebook.com/blog/online-speech-recognition-with-wav2letteranywhere/"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22039950.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '222'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"andfrob","descendants":0,"id":22039950,"score":9,"time":1578958049,"title":"OT
+        and CRDT trade-offs for Real-Time collaboration","type":"story","url":"https://www.tiny.cloud/blog/real-time-collaboration-ot-vs-crdt/"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:29 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22037864.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '241'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"bookofjoe","descendants":3,"id":22037864,"kids":[22040214,22039756],"score":21,"time":1578944822,"title":"The
+        case for being a medical conservative","type":"story","url":"https://www.amjmed.com/article/S0002-9343(19)30167-6/fulltext"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:29 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22038317.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '244'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"reedwolf","descendants":7,"id":22038317,"kids":[22039574,22039134],"score":47,"time":1578947970,"title":"CleverCSV:
+        A Drop-In Replacement for Python''s CSV Module","type":"story","url":"https://github.com/alan-turing-institute/CleverCSV"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:30 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22037749.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '310'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"andrenth","descendants":39,"id":22037749,"kids":[22039490,22039758,22038901,22039140,22039745,22040153,22038724,22038650,22038583],"score":74,"time":1578944059,"title":"Tradition
+        Is Smarter (2018)","type":"story","url":"http://scholars-stage.blogspot.com/2018/08/tradition-is-smarter-than-you-are.html"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:32 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22037242.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '296'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"feross","descendants":60,"id":22037242,"kids":[22038198,22038025,22039225,22037840,22037767,22039629,22037686,22039833,22038346,22037820,22037689,22038036],"score":70,"time":1578940980,"title":"The
+        Status of HTTP/3","type":"story","url":"https://www.infoq.com/news/2020/01/http-3-status/"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:33 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22035961.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '380'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6Imp1bGllbl9jIiwiZGVzY2VuZGFudHMiOjM1LCJpZCI6MjIwMzU5NjEsImtpZHMiOlsyMjAzNjMxNywyMjAzNzQ5MiwyMjAzNzE3OCwyMjAzNjc1MSwyMjAzOTk4MiwyMjAzNjg1NywyMjAzNzIzOCwyMjAzNjAzMywyMjAzNzI2OCwyMjAzNzExNCwyMjAzODUxNSwyMjAzODIxOSwyMjAzNjc1MCwyMjAzODMyMiwyMjAzNjY1N10sInNjb3JlIjoxMjMsInRpbWUiOjE1Nzg5MzM2MjYsInRpdGxlIjoiU2hvdyBITjogSHVnZ2luZ0ZhY2Ug4oCTIEZhc3QgdG9rZW5pemF0aW9uIGxpYnJhcnkgZm9yIGRlZXAtbGVhcm5pbmcgTkxQIHBpcGVsaW5lcyIsInR5cGUiOiJzdG9yeSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9odWdnaW5nZmFjZS90b2tlbml6ZXJzIn0=
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:34 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22033827.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 00:02:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '814'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImVhbGV4aHVkc29uIiwiZGVzY2VuZGFudHMiOjIzMiwiaWQiOjIyMDMzODI3LCJraWRzIjpbMjIwMzgzMDEsMjIwMzkzNDAsMjIwMzQxNDQsMjIwMzgyMTEsMjIwMzM5OTksMjIwMzM5NDUsMjIwMzg0NTEsMjIwNDAxMjEsMjIwMzkwMzEsMjIwMzg2NTIsMjIwMzUzNjYsMjIwMzk3MjcsMjIwMzQwMDYsMjIwMzY1MzcsMjIwMzM5NDksMjIwMzkzODUsMjIwMzQwNDUsMjIwMzM5ODksMjIwMzYwMDgsMjIwMzQyMjEsMjIwMzg5MTEsMjIwMzg0OTIsMjIwMzUzNTAsMjIwMzQ0NzcsMjIwMzk5MTgsMjIwMzM5NDIsMjIwMzM5ODQsMjIwMzQ0MTksMjIwMzYzMzYsMjIwMzgzNTksMjIwMzQ2NDMsMjIwMzgzMTYsMjIwMzQ0MzEsMjIwMzg4NzIsMjIwMzQwOTUsMjIwMzQ5MTAsMjIwMzQ3ODUsMjIwMzYzMTYsMjIwMzQxMTAsMjIwMzgxNDgsMjIwMzg0MTUsMjIwMzkxNzgsMjIwMzQyNTIsMjIwMzQxOTYsMjIwMzY4MjksMjIwMzQ2NDksMjIwMzQzMzAsMjIwMzQyOTQsMjIwMzQzMDgsMjIwMzQ5MzMsMjIwMzk3MTYsMjIwMzM5MzcsMjIwMzk2MjMsMjIwMzQyMTQsMjIwMzQ2MjMsMjIwMzM5ODIsMjIwMzQwNzAsMjIwMzkzMDIsMjIwMzQyMTIsMjIwMzg5MzcsMjIwMzM5OTAsMjIwMzU3ODQsMjIwMzgzNzEsMjIwMzQ2MjksMjIwMzQwNDksMjIwMzQ1MDksMjIwMzk1NjhdLCJzY29yZSI6MjY1LCJ0aW1lIjoxNTc4OTE4NDUyLCJ0aXRsZSI6IlRoZSDigJxObyBDb2Rl4oCdIERlbHVzaW9uIiwidHlwZSI6InN0b3J5IiwidXJsIjoiaHR0cHM6Ly93d3cuYWxleGh1ZHNvbi5jb20vMjAyMC8wMS8xMy90aGUtbm8tY29kZS1kZWx1c2lvbi8ifQ==
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 00:02:34 GMT
 recorded_with: VCR 5.0.0
