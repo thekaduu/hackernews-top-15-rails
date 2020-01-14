@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-RSpec.describe ItemRepository, type: :model do
+RSpec.describe ItemGateway, type: :model do
   let(:item_ids) { [9129911, 9129199, 9127761, 9128141] }
 
   describe '#find_all' do

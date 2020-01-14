@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class StoryRepository < ApplicationRepository
+class StoryGateway < ApplicationGateway
   def top_stories
     response = get('topstories.json')
 
@@ -15,6 +15,6 @@ class StoryRepository < ApplicationRepository
   private
 
   def item_repository
-    @item_repository ||= ItemRepository.new
+    @item_repository ||= ItemGateway.new
   end
 end

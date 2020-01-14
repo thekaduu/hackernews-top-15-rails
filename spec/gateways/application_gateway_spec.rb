@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-describe ApplicationRepository do
+describe ApplicationGateway do
   it { expect(described_class::BASE_URI).to eq('https://hacker-news.firebaseio.com/v0') }
 
   describe '#get' do
