@@ -13,4 +13,16 @@ RSpec.describe Story, type: :model do
   it { is_expected.to have_attr_accessor(:title) }
   it { is_expected.to have_attr_accessor(:type) }
   it { is_expected.to have_attr_accessor(:url) }
+
+  describe '#created_at' do
+    context 'when time is set' do
+      subject { described_class.new(time: 1175714200) }
+
+      it { expect(subject.created_at).to eq(DateTime.new(2007, 4, 4, 19, 16, 40)) }
+    end
+
+    context 'when time is not set' do
+      it { expect(subject.created_at).to be_nil }
+    end
+  end
 end

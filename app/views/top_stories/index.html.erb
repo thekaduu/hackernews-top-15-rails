@@ -1,13 +1,15 @@
-<article class="row collapsed">
-  <div class="column">
-    <h2>TF-Ranking: A Scalable TensorFlow Library for Learning-To-Rank</h2>
-    <p class="metadata">by <a href="#">ilamon 06/12/2018 08:00</a></p>
-    <p class="metadata comments">85 comments</p>
-    <a href="#">+ Show most relevant comments</a>
-  </div>
-</article>
+<% @stories.each do |story| %>
+  <article class="row collapsed">
+    <div class="column">
+      <h2><%= story.title %></h2>
+      <p class="metadata">by <a href="#"><%= story.by %> <%= I18n.l(story.created_at, format: "%m/%d/%Y %I:%M") %></a></p>
+      <p class="metadata comments"><%= story.kids&.count || 0 %> comments</p>
+      <a href="#">+ Show most relevant comments</a>
+    </div>
+  </article>
+<% end %>
 
-<article class="row">
+<article class="row"><!--
   <div class="column">
     <h2>How Facebook Is Fueling the French Populist Rage</h2>
     <p class="metadata">by <a href="#">ilamon 06/12/2018 09:35</a></p>
@@ -28,3 +30,4 @@
   </div>
 
 </article>
+ -->
