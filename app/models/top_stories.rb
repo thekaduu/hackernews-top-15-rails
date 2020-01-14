@@ -12,12 +12,12 @@ class TopStories
   end
 
   def call
-    StoriesFactory.call(repository.top_stories)
+    StoriesFactory.call(gateway.top_stories)
   end
 
   private
 
-  def repository
-    @repository ||= StoryRepository.new
+  def gateway
+    @gateway ||= StoryGateway.new
   end
 end

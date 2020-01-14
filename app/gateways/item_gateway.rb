@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ItemRepository < ApplicationRepository
+class ItemGateway < ApplicationGateway
   def find_all(item_ids)
     [].tap do |items|
       item_ids.each do |item_id|

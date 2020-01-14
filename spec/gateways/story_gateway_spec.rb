@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-describe StoryRepository do
+describe StoryGateway do
   describe '#top_stories' do
     subject { described_class.new }
 

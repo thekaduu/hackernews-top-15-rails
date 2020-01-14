@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ApplicationRepository
+class ApplicationGateway
   BASE_URI = 'https://hacker-news.firebaseio.com/v0'
 
   attr_reader :client

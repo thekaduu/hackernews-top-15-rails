@@ -22,8 +22,8 @@ RSpec.describe TopStories, type: :model do
     subject { described_class.new(query) }
 
     context 'when query is nil' do
-      it 'invokes StoryRepository' do
-        expect_any_instance_of(StoryRepository).to receive(:top_stories) { [] }
+      it 'invokes StoryGateway' do
+        expect_any_instance_of(StoryGateway).to receive(:top_stories) { [] }
         described_class.call
       end
 
