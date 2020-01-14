@@ -1,0 +1,163 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9129911.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 13 Jan 2020 23:57:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '265'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"theyeti","descendants":16,"id":9129911,"kids":[9129990,9130206,9130376,9130273,9131289,9131728,9137773,9132476],"score":78,"text":"","time":1425261906,"title":"Venture
+        Capital in the 1980s","type":"story","url":"http://reactionwheel.net/2015/01/80s-vc.html"}'
+    http_version: 
+  recorded_at: Mon, 13 Jan 2020 23:57:23 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9129199.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 13 Jan 2020 23:57:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '377'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"softdev12","descendants":41,"id":9129199,"kids":[9129206,9130143,9129611,9129735,9129751,9129736,9129681,9130091,9130666,9129722,9129803],"score":133,"text":"","time":1425249192,"title":"BIT
+        Poised to Become Publicly Traded Bitcoin Fund","type":"story","url":"http://www.wsj.com/articles/bitcoin-investment-trust-gets-finras-ok-to-become-public-bitcoin-fund-1425242094"}'
+    http_version: 
+  recorded_at: Mon, 13 Jan 2020 23:57:24 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9127761.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 13 Jan 2020 23:57:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '524'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"dcre","descendants":303,"id":9127761,"kids":[9128362,9128149,9128434,9128171,9128012,9129372,9128081,9128252,9129380,9128544,9128740,9128161,9128083,9128599,9128819,9128510,9130092,9128336,9128027,9131340,9128924,9129138,9129717,9129858,9128919,9129000,9130774,9131418,9129622,9129599],"score":396,"time":1425228700,"title":"Notes
+        on watching \"Aliens\" for the first time again, with a bunch of kids","type":"story","url":"http://www.rogerebert.com/mzs/watching-aliens-for-the-first-time-again-with-a-bunch-of-kids"}'
+    http_version: 
+  recorded_at: Mon, 13 Jan 2020 23:57:26 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9128141.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 13 Jan 2020 23:57:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '467'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"je_bailey","descendants":148,"id":9128141,"kids":[9128587,9129323,9129223,9128641,9128837,9129337,9128782,9131050,9131089,9129321,9130705,9128764,9129019,9128751,9131166,9129010,9129808,9129829,9129774,9133287,9129549,9131292,9130967,9128847,9131039,9129713,9129035],"score":234,"time":1425233161,"title":"Mozilla
+        to open first-world front in Firefox OS war","type":"story","url":"http://www.cnet.com/news/mozilla-to-open-first-world-front-in-firefox-os-war/"}'
+    http_version: 
+  recorded_at: Mon, 13 Jan 2020 23:57:27 GMT
+recorded_with: VCR 5.0.0

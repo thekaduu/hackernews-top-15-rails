@@ -34,6 +34,8 @@ gem 'bootsnap', '1.4.5', require: false
 
 gem 'semantic-ui-sass', '2.4.2.0'
 
+gem 'faraday', '1.0.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -56,4 +58,6 @@ group :test do
   gem 'capybara', '~> 3.29'
   gem 'apparition', '~> 0.4'
   gem 'launchy', '~> 2.4'
+  gem 'vcr', '~> 5.0'
+  gem 'webmock', '~> 3.7'
 end
