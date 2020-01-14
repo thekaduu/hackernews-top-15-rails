@@ -1,0 +1,173 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049047.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:38:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '346'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"gamblor956","descendants":2,"id":22049047,"kids":[22049187,22050120,22049243],"score":7,"time":1579034590,"title":"The
+        Epic Games Store infuriated people. Gamers spent $680M there anyway","type":"story","url":"https://www.washingtonpost.com/video-games/2020/01/14/epic-games-store-infuriated-people-gamers-spent-680-million-there-anyway/"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:38:53 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049187.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:38:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '626'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"mdorazio","id":22049187,"parent":22049047,"text":"This is yet
+        another example of 1) the vocal minority does not necessarily reflect the
+        majority market, and 2) people rarely have enough moral strength to accept
+        pain (in this case having to wait for a game or maybe not play it at all)
+        in exchange for taking a stance on an issue.<p>It&#x27;s much the same as
+        people frequently complaining about Hollywood remaking the same movies over
+        and over again while at the same time remakes continue to rake in money for
+        studios.  Businesses will follow the money, angry hardliners be damned.","time":1579035539,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:38:54 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22050120.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:38:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '555'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"aaron695","id":22050120,"parent":22049047,"text":"I reject the
+        premise.<p>I think Gamers were not infuriated by Epic. Just normal everyday
+        complaints that happen with every new business.<p>Gamers were, as an example,
+        infuriated by Blizzard. That is infuriation.<p><a href=\"https:&#x2F;&#x2F;www.polygon.com&#x2F;2019&#x2F;4&#x2F;5&#x2F;18295833&#x2F;epic-games-store-controversy-explained\"
+        rel=\"nofollow\">https:&#x2F;&#x2F;www.polygon.com&#x2F;2019&#x2F;4&#x2F;5&#x2F;18295833&#x2F;epic-games-store-c...</a>","time":1579042696,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:38:55 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049243.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:38:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '263'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"sub7","dead":true,"id":22049243,"parent":22049047,"text":"Epic,
+        Blizzard, Zynga are basically Philip Morris. Their products are mad addictive,
+        sometimes mad fun and always life sucking. They should be taxed at like 80%.","time":1579035941,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:38:55 GMT
+recorded_with: VCR 5.0.0

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class TopStories
-  attr_reader :query, :repository, :stories
+  attr_reader :query
 
   def initialize(query = nil)
     @query = query

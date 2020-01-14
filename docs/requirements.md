@@ -1,8 +1,8 @@
 # Top 15 Hacker News Stories
 
-Como um programador que gostaria de me manter atualizado, utilizo bastante o Hacker News (https://news.ycombinator.com), que é um portal onde é possível discutir histórias relevantes de tecnologia publicadas na internet. 
+Como um programador que gostaria de me manter atualizado, utilizo bastante o Hacker News (https://news.ycombinator.com), que é um portal onde é possível discutir histórias relevantes de tecnologia publicadas na internet.
 O problema é que o portal Hacker News não é nada intuitivo, é complicado de encontrar coisas, e as discussões ficam muito perdidas.
-Gostaria de construir um site, que lista as top 15 histórias do Hacker News e mostra apenas os comentários relevantes dessas histórias. Além disso me permita buscar por alguma palavra chave. 
+Gostaria de construir um site, que lista as top 15 histórias do Hacker News e mostra apenas os comentários relevantes dessas histórias. Além disso me permita buscar por alguma palavra chave.
 
 ## Funcionalidades:
 
@@ -13,4 +13,4 @@ Gostaria de construir um site, que lista as top 15 histórias do Hacker News e m
 
 ## Requisitos:
 
-* Usar a api do Hacker News: https://github.com/HackerNews/API 
+* Usar a api do Hacker News: https://github.com/HackerNews/API

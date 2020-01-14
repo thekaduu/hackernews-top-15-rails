@@ -1,0 +1,752 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8863.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:27:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '375'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"dhouston","descendants":71,"id":8863,"kids":[9224,8917,8952,8884,8887,8869,8958,8940,8908,9005,8873,9671,9067,9055,8865,8881,8872,8955,10403,8903,8928,9125,8998,8901,8902,8907,8894,8870,8878,8980,8934,8943,8876],"score":104,"time":1175714200,"title":"My
+        YC app: Dropbox - Throw away your USB drive","type":"story","url":"http://www.getdropbox.com/u/2/screencast.html"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:27:43 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9224.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:27:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '895'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"BrandonM","id":9224,"kids":[9272],"parent":8863,"text":"I have
+        a few qualms with this app:<p>1. For a Linux user, you can already build such
+        a system yourself quite trivially by getting an FTP account, mounting it locally
+        with curlftpfs, and then using SVN or CVS on the mounted filesystem.  From
+        Windows or Mac, this FTP account could be accessed through built-in software.<p>2.
+        It doesn''t actually replace a USB drive.  Most people I know e-mail files
+        to themselves or host them somewhere online to be able to perform presentations,
+        but they still carry a USB drive in case there are connectivity problems.  This
+        does not solve the connectivity issue.<p>3. It does not seem very \"viral\"
+        or income-generating.  I know this is premature at this point, but without
+        charging users for the service, is it reasonable to expect to make money off
+        of this?","time":1175786214,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:27:44 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8917.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '406'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"brett","id":8917,"parent":8863,"text":"This is genius. It''s
+        is problem everyone is having, and everyone knew it (<a href=\"http://www.aaronsw.com/weblog/lazybackup\">http://www.aaronsw.com/weblog/lazybackup</a>
+        ). If it really works as well as it looks in that demo then they nailed it.
+        I''m both envious and inspired. I''ll be surprised if YC does not fund them.
+        ","time":1175723293,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:01 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8952.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '634'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"nickb","id":8952,"kids":[9153],"parent":8863,"text":"The only
+        problem is that you have to install something. See, it''s not the same as
+        USB drive. Most corporate laptops are locked and you can''t install anything
+        on them. That''s gonna be the problem. Also, another point where your USB
+        comparison fails is that USB works in places where you don''t have internet
+        access. <p>My suggestion is to drop the \"Throw away your USB drive\" tag
+        line and use something else... it will just muddy your vision.<p>Kudos for
+        launching it!!! Launching/shipping is extremely hard and you pulled it off!
+        Super!","time":1175727286,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:08 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8884.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '380'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"nefele","id":8884,"kids":[9024,8892,8888],"parent":8863,"text":"Drew,<p>I
+        saw your short demo at BarCamp and I must say Dropbox looks great! Are you
+        planning on having a Linux port as well, or is too early to talk about that?<p>Also,
+        as another SFP applicant I have to tell you that I really hope you get the
+        funding - you deserve it.\n","time":1175717243,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8887.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '431'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"markovich","id":8887,"kids":[8889],"parent":8863,"text":"It''s
+        pretty nice, and I was thinking to myself - hey cool, I could make an online
+        backup of my code. Then it occured to me - who the hell is this guy, and why
+        should I trust my code to be on his server!?<p>That''s a huge issue you should
+        consider. Why would people feel comfortable leaving their valuable stuff on
+        \"Drews\" server?","time":1175717593,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:30 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8869.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1021'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"zaidf","id":8869,"kids":[8949],"parent":8863,"text":"This has
+        great potential!<p>Only suggestion I would have is go slower on the demo.
+        I know you lost me very early into it switching between windows.<p>If you
+        are looking for a wider audience than those who already know the context of
+        dropbox, make a video where you lay out the case for use of dropbox using
+        simple examples from user point of view(think a college student) and then
+        in the demo show just the basic features. I got the feeling you tried to show
+        too many features too quickly.<p>In general, I have realized it is much better
+        to launch with something that does a few things REALLY well rather than a
+        lot of things with little focus. When you launch with whole lot of features
+        people assume you are competing with the big companies. When you launch small
+        and do it well, it is easier to attract a user-base and THEN keep feeding
+        it more advance features in form of updates.<p>Good luck! Looks slick from
+        the UI.\n","time":1175715380,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:32 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8958.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '405'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"jganetsk","id":8958,"kids":[9132,8969],"parent":8863,"text":"How
+        are you going to scale up your storage to meet the demands of the users? Are
+        you doing something clever, like Google Filesystem? This is not an easy problem,
+        if you aren''t prepared for it in advance. If 10,000 users sign up tomorrow...
+        you might be very very hosed, as opposed to very very happy.","time":1175727738,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:33 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8940.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '274'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"jganetsk","id":8940,"parent":8863,"text":"I''ve seen this before.
+        It''s called Coda.<p><a href=\"http://www.coda.cs.cmu.edu/\">http://www.coda.cs.cmu.edu/</a><p>Great
+        work bringing this to the web, and integrating it with Windows!\n","time":1175726114,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:35 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8908.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '245'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"JMiao","id":8908,"kids":[9247],"parent":8863,"text":"Was Dropbox
+        your first idea, or did you start from another point of inspiration?  How
+        long did it take to get to a workable demo?<p>Great job, Drew!","time":1175720128,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:36 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9005.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '354'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"ph0rque","id":9005,"kids":[9034],"parent":8863,"text":"You know,
+        your app is something that I''ve been wishing someone would make for some
+        time now. Congrats!<p>Here''s a suggestion for a future revision: give the
+        ability for office documents to open with online office apps when clicked
+        on in the public folder.","time":1175736964,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:37 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8873.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '329'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"mukund","id":8873,"kids":[8875],"parent":8863,"text":"Cool stuff
+        indeed. I would give 5 stars for such an useful application. I dont know if
+        users can have administrative rights installing this features on some random
+        computers, cant u incorporate something like web based interface?\n","time":1175715923,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:40 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9671.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '688'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"bls","id":9671,"parent":8863,"text":"This is an interesting
+        application. But, your demo video does not do it justice: (a) It is too long;
+        (b) your folders that you use in the video have too many files in them; you
+        say about 10x more words than necessary; and (d) your voice, combined with
+        the bad microphone input, make the explanation sounds pad.<p>Your main competition
+        is not USB drives: it is HotMail, GMail, and Yahoo! Mail. Once people are
+        taught the \"email it to yourself\" trick, they love to use it--I think because
+        it is not so intuitive for people, yet it is so simple, that they are proud
+        that they are doing something so clever.\n","time":1175886329,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:42 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9067.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '574'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"zkinion","id":9067,"kids":[9097],"parent":8863,"text":"It looks
+        great man.  I know you''ll be accepted.  The writing is on the wall.  Posting
+        your video here just seals the deal, and puts yourself out there.  I didn''t
+        apply to YC, but if I did, I''d be putting my stuff up here as well.  I''m
+        surprized nobody else has posted like you did.  That takes some balls and
+        self-belief.<p>I didn''t agree with some of the things you''ve said before,
+        like IP rules, etc.  but you''ve earned my respect.  Best of luck to you.  :)<p>-Zak
+        Kinion\n","time":1175749896,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:44 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/9055.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '414'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"chandrab","id":9055,"kids":[9481],"parent":8863,"text":"Nice
+        Application...the question I have is on the marketing side- how are you going
+        to attract users? and how are you going to differentiate yourself from the
+        hordes of other online storage vendors, esp. to the newbie users who can''t
+        tell them apart easy? (so you have to have a simple, compelling story for
+        them)\n","time":1175745339,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:45 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8865.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '131'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"dhouston","id":8865,"kids":[9007],"parent":8863,"text":"oh,
+        and a mac port is coming :)","time":1175714575,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:47 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/8881.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 14 Jan 2020 23:28:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '363'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"iamwil","id":8881,"parent":8863,"text":"Kudos from myself as
+        well.  In fact, just today I was having problems with ftp and samba, and was
+        wishing for a more graphical rsync.  Perhaps it is true that a good way to
+        do a web app is to implement a unix command.  :)  Good job.  can''t wait until
+        it''s out for the rest of us.","time":1175717064,"type":"comment"}'
+    http_version: 
+  recorded_at: Tue, 14 Jan 2020 23:28:49 GMT
+recorded_with: VCR 5.0.0

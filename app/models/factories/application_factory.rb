@@ -12,6 +12,14 @@ class ApplicationFactory
   end
 
   def call
+    [].tap do |collection|
+      data.each { |attr| collection << blueprint.new(attr) }
+    end
+  end
+
+  private
+
+  def blueprint
     raise NotImplementedError
   end
 end

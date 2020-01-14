@@ -1,7 +1,7 @@
 <% @stories.each do |story| %>
   <article class="row collapsed">
     <div class="column">
-      <h2><%= story.title %></h2>
+      <h2>#<%= story.id %> - <%= story.title %></h2>
       <p class="metadata">
         by
         <%= link_to story.url, target: '_blank' do %>
