@@ -1,3 +1,32 @@
+@mixin story-box() {
+  width: 80%;
+  padding: 1.5rem !important;
+  background-color: #fff;
+
+  p.metadata {
+    font-size: 12px;
+
+    a {
+      text-decoration: underline;
+      color: #5b5b5b;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &.comments {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+
+  .column {
+    padding: 0 !important;
+  }
+}
+
+
 * {
   color: #5b5b5b;
   font-family: Verdana, Geneva, sans-serif
