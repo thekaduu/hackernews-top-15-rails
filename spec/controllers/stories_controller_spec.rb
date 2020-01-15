@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe StoriesController do
+RSpec.describe StoriesController, type: :controller do
   describe 'GET index' do
     context 'when query is present' do
       it 'renders index template' do

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class CommentGateway < ApplicationGateway
+  RELEVANT_COMMENT_MAX_COUNT = 10
   RELEVANT_COMMENT_LENGTH = 20
 
   def relevant_comments(story_id)
@@ -14,7 +15,7 @@ class CommentGateway < ApplicationGateway
     return [] unless comment_ids
 
     [].tap do |comments|
-      comment_ids[0...10].each do |comment_id|
+      comment_ids[0...RELEVANT_COMMENT_MAX_COUNT].each do |comment_id|
         comment = item_gateway.find(comment_id)
         comments << comment if comment_is_relevant?(comment)
       end

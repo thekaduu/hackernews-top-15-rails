@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-describe StoryGateway do
+RSpec.describe StoryGateway, type: :model do
   subject { described_class.new }
 
   describe '#search_stories' do

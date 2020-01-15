@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe CommentGateway, type: :model do
   it { expect(described_class::RELEVANT_COMMENT_LENGTH).to eq(20) }
+  it { expect(described_class::RELEVANT_COMMENT_MAX_COUNT).to eq(10) }
 
   describe '#relevant_comments' do
     subject { described_class.new }
