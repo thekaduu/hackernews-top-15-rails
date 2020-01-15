@@ -1,15 +1,14 @@
 var story = $('#story-<%= params[:story_id] %>');
 
-story
-  .removeClass('collapsed')
-  .after('<%=j render partial: "relevant_comments/comment" %>');
+story.siblings('.row.comments').replaceWith('<%=j render partial: "relevant_comments/comment" %>');
 
 story.find('a.show-comments')
+  .css({ display: 'block' })
   .removeClass('show-comments')
   .addClass('hide-comments')
   .html('- Hide most relevant comments');
 
-$('#story-<%= params[:story_id] %>').find('a.hide-comments').on('click', function(event) {
+$('#story-<%= params[:story_id] %>').find('a.hide-comments').off('click').on('click', function(event) {
   event.preventDefault();
   event.stopPropagation();
 
@@ -20,6 +19,8 @@ $('#story-<%= params[:story_id] %>').find('a.hide-comments').on('click', functio
   $(this)
     .html('+ Show most relevent comments')
     .addClass('show-comments')
-    .removeClass('hode-comments')
+    .removeClass('hide-comments')
     .off('click');
+
+  App.comments.setup();
 });

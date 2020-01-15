@@ -18,5 +18,7 @@ consumer.subscriptions.create("StoryChannel", {
     } else {
       $('#loader').replaceWith(data.message);
     }
+
+    App.comments.setup();
   }
 });
