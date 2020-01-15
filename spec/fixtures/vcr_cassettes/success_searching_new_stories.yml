@@ -1,0 +1,1323 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/newstories.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4501'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: "[22051364,22051362,22051340,22051324,22051308,22051300,22051292,22051276,22051274,22051271,22051264,22051257,22051241,22051235,22051217,22051190,22051183,22051165,22051155,22051151,22051146,22051143,22051140,22051123,22051118,22051115,22051105,22051104,22051097,22051091,22051089,22051081,22051079,22051067,22051054,22051051,22051050,22051044,22051042,22051039,22051021,22050983,22050974,22050973,22050969,22050932,22050891,22050867,22050864,22050848,22050824,22050821,22050813,22050812,22050806,22050802,22050798,22050797,22050789,22050766,22050763,22050759,22050747,22050731,22050725,22050719,22050718,22050705,22050692,22050690,22050688,22050668,22050655,22050652,22050648,22050644,22050643,22050642,22050638,22050637,22050633,22050623,22050618,22050617,22050611,22050606,22050598,22050584,22050581,22050575,22050573,22050565,22050537,22050531,22050489,22050487,22050481,22050474,22050467,22050448,22050439,22050418,22050406,22050405,22050363,22050358,22050353,22050350,22050343,22050336,22050329,22050328,22050316,22050302,22050285,22050279,22050273,22050255,22050250,22050241,22050225,22050198,22050193,22050168,22050166,22050165,22050162,22050160,22050157,22050153,22050142,22050116,22050111,22050096,22050072,22050070,22050069,22050022,22049999,22049995,22049991,22049972,22049961,22049957,22049951,22049942,22049940,22049922,22049908,22049897,22049888,22049882,22049867,22049866,22049863,22049859,22049854,22049842,22049828,22049825,22049815,22049814,22049809,22049805,22049790,22049786,22049767,22049765,22049758,22049747,22049743,22049727,22049721,22049706,22049702,22049681,22049675,22049660,22049658,22049657,22049646,22049632,22049627,22049622,22049594,22049590,22049573,22049564,22049552,22049534,22049521,22049520,22049519,22049516,22049509,22049479,22049460,22049455,22049452,22049441,22049440,22049439,22049428,22049408,22049403,22049400,22049395,22049380,22049360,22049357,22049348,22049329,22049306,22049297,22049296,22049277,22049253,22049244,22049222,22049211,22049192,22049189,22049185,22049167,22049160,22049153,22049143,22049141,22049138,22049136,22049103,22049095,22049089,22049074,22049072,22049069,22049068,22049059,22049047,22049042,22049026,22049020,22049013,22049012,22049008,22048999,22048998,22048987,22048984,22048957,22048954,22048953,22048949,22048946,22048944,22048940,22048918,22048912,22048906,22048887,22048878,22048877,22048866,22048853,22048836,22048819,22048816,22048811,22048795,22048793,22048774,22048764,22048736,22048733,22048729,22048722,22048710,22048709,22048708,22048695,22048692,22048690,22048687,22048672,22048670,22048662,22048657,22048655,22048633,22048631,22048618,22048611,22048610,22048596,22048586,22048585,22048583,22048562,22048559,22048541,22048534,22048525,22048511,22048505,22048501,22048467,22048463,22048462,22048450,22048447,22048427,22048416,22048413,22048412,22048406,22048382,22048368,22048359,22048358,22048347,22048340,22048339,22048332,22048331,22048318,22048312,22048310,22048308,22048305,22048304,22048302,22048293,22048291,22048289,22048282,22048276,22048271,22048267,22048261,22048252,22048235,22048232,22048224,22048207,22048203,22048199,22048188,22048184,22048183,22048177,22048173,22048161,22048149,22048148,22048141,22048131,22048119,22048110,22048109,22048102,22048086,22048085,22048083,22048082,22048080,22048079,22048040,22048038,22048020,22048008,22048003,22047990,22047980,22047974,22047972,22047948,22047939,22047926,22047888,22047885,22047884,22047878,22047873,22047872,22047871,22047865,22047846,22047844,22047831,22047830,22047826,22047815,22047812,22047802,22047785,22047783,22047774,22047760,22047709,22047687,22047682,22047680,22047667,22047662,22047661,22047656,22047649,22047637,22047614,22047574,22047573,22047543,22047536,22047534,22047532,22047525,22047522,22047498,22047490,22047488,22047472,22047469,22047448,22047445,22047435,22047433,22047405,22047401,22047399,22047393,22047387,22047374,22047354,22047346,22047345,22047335,22047333,22047329,22047328,22047321,22047318,22047315,22047307,22047284,22047254,22047231,22047218,22047213,22047209,22047197,22047196,22047189,22047182,22047177,22047167,22047163,22047145,22047136,22047116,22047111,22047100,22047097,22047091,22047087,22047080,22047078,22047067,22047064,22047062,22047058,22047020,22046980,22046978,22046969,22046964,22046948,22046947,22046945,22046934,22046928,22046910,22046888,22046879,22046861,22046860,22046859,22046854,22046831,22046830,22046828,22046827,22046818,22046813,22046812,22046808,22046805,22046800,22046794,22046789,22046767]"
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:41 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051364.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '297'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImRhbmllbGh1Z2hlcyIsImRlc2NlbmRhbnRzIjowLCJpZCI6MjIwNTEzNjQsInNjb3JlIjoyLCJ0aW1lIjoxNTc5MDU2NDE2LCJ0aXRsZSI6IkNocm9tZSBXaWxsIERyb3AgM3JkIFBhcnR5IENvb2tpZXMgaW4gMiBZZWFycyDigJMtIFJlcGxhY2Ugd2l0aCDigJxQcml2YWN5IFNhbmRib3jigJ0iLCJ0eXBlIjoic3RvcnkiLCJ1cmwiOiJodHRwczovL2FkZXhjaGFuZ2VyLmNvbS9vbmxpbmUtYWR2ZXJ0aXNpbmcvZ29vZ2xlLWNocm9tZS13aWxsLWRyb3AtdGhpcmQtcGFydHktY29va2llcy1pbi0yLXllYXJzLyJ9
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:41 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051362.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '172'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"pier25","descendants":0,"id":22051362,"score":1,"text":"Would
+        you do it again?","time":1579056389,"title":"Ask HN: Have You Incorporated
+        in Estonia?","type":"story"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:42 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051340.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '305'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImxpYnJldHJvIiwiZGVzY2VuZGFudHMiOjAsImlkIjoyMjA1MTM0MCwic2NvcmUiOjEsInRpbWUiOjE1NzkwNTYwNzksInRpdGxlIjoiQnNuZXNIRCBSZXRyb0FyY2gg4oCTIFB1c2hpbmcgdGhlIExpbWl0cyBvZiBTTkVTIFdpZGVzY3JlZW4vVWx0cmF3aWRlIFN1cHBvcnQiLCJ0eXBlIjoic3RvcnkiLCJ1cmwiOiJodHRwczovL3d3dy5saWJyZXRyby5jb20vaW5kZXgucGhwL2JzbmVzLWhkLWJldGEtY29yZS1wdXNoaW5nLXRoZS1saW1pdHMtb2YtdGhlLXNuZXMtd2lkZXNjcmVlbi1hbmQtdWx0cmF3aWRlLXN1cHBvcnQvIn0=
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:43 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051324.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '266'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"mmhsieh","descendants":0,"id":22051324,"score":1,"time":1579055889,"title":"Star
+        Wars Episode IX: Duel of the Fates Script Leaked","type":"story","url":"https://www.esquire.com/entertainment/movies/a30514233/star-wars-9-original-script-colin-trevorrow-leak/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:45 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051308.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '246'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6InNvaGthbXl1bmciLCJkZXNjZW5kYW50cyI6MCwiaWQiOjIyMDUxMzA4LCJzY29yZSI6MiwidGltZSI6MTU3OTA1NTY0MywidGl0bGUiOiJPbmUgTGlicmFyaWFuIFRyaWVkIHRvIFNxdWFzaCDigJxHb29kbmlnaHQgTW9vbuKAnSIsInR5cGUiOiJzdG9yeSIsInVybCI6Imh0dHBzOi8vc2xhdGUuY29tL2N1bHR1cmUvMjAyMC8wMS9nb29kbmlnaHQtbW9vbi1ueXBsLTEwLW1vc3QtY2hlY2tlZC1vdXQtYm9va3MuaHRtbCJ9
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:46 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051300.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2132'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6IlB0cnVsbGkiLCJkZXNjZW5kYW50cyI6MCwiaWQiOjIyMDUxMzAwLCJzY29yZSI6MywidGV4dCI6IlRoaXMgaXMgYSBzdG9yeSBhYm91dCBteSBsaWZlIHNvIGZhciBhbmQgd2h5IEkgd2FudCB0byBjaGFuZ2UgdGhpbmdzLjxwPkkmI3gyNzttIGEgRmF0aGVyIG9mIHR3byB3aXRoIGEgcmVndWxhciA5LTUgam9iLiBNeSBkYWlseSByb3V0aW5lIGlzIG5vdCB1bmlxdWUgaW4gYW55d2F5LiBXYWtlIHVwLCBoZWFkIG92ZXIgdG8gdGhlIGd5bSwgc2hvd2VyLCBoZWFkIGJhY2sgaG9tZSwgZ2V0IHRoZSBraWRzIHJlYWR5IGZvciBzY2hvb2wgYW5kIGxlYXZlIHRoZSBob3VzZSBmb3Igd29yay4gU3RhbmRhcmQgcmlnaHQ/PHA+TXkgV2lmZSBvbiB0aGUgb3RoZXIgaGFuZCB3b3JrcyA5LTUgYnV0IG9mdGVuIHRoZSBzaGlmdHMgYXJlIDEyKyBob3VycyBiZWNhdXNlIG9mIGRlYWRsaW5lcywgY29uc3RyYWludHMsIHByaW9yaXRpZXMuIFRoaXMgaGFzIHJlYWxseSBiZWd1biB0byBib3RoZXIgbWUuIEkgc2VlIG15IHdpZmUgdGlyZWQsIG1lbnRhbGx5IGV4aGF1c3RlZCBhbmQgYWxtb3N0IGxpa2Ugc2hlJiN4Mjc7cyBiZWVuIGRlZmVhdGVkLjxwPk91ciBjaGlsZHJlbiBuZWVkIG1vbSBhbmQgZGFkLCB3YW50IHRvIHBsYXksIGV4cGxvcmUgYW5kIGxhdWdoIHdpdGggdXMuIEJ1dCwgc29tZXRpbWVzIGl0JiN4Mjc7cyBoYXJkIHRvIG11c3RlciB0aGUgZW5lcmd5IHdoZW4gd29yayBoYXMgdGFrZW4gaXRzIHRvbGwgb24geW91IGFsbCBkYXkuIEhvdyB1bmZhaXIgaXMgdGhhdCBmb3IgdGhlIGtpZHM/IFRoZXkgZXhwZWN0IG91ciBsb3ZlLCBhdHRlbnRpb24gYW5kIGNvbXBhbnksIGl0JiN4Mjc7cyBzbyBoYXJkIHdoZW4gdGhleSBkb24mI3gyNzt0IGdldCB0aGF0IHRpbWUgb3IgZW1vdGlvbmFsIHN1cHBvcnQuXG5UaGlzIHJlYWxseSBoYXMgYmVlbiBlYXRpbmcgYXdheSBhdCBtZSBmb3Igc29tZXRpbWUuPHA+SSBrZWVwIGhlYXJpbmcgYWJvdXQgd29yayBsaWZlIGJhbGFuY2UgYnV0IGluIG91ciBjYXNlIHdvcmsgc2VlbXMgdG8gY29udHJvbCB0aGUgcGVuZHVsdW0gd2VpZ2hpbmcgZG93biBvbiB0aGUgd29yayBzaWRlIG9mIHRoaW5ncyBtb3JlIG9mdGVuIHRoYW4gbm90LjxwPlNvIGl0IGdvdCBtZSB0aGlua2luZ+KApiBXaHkgYXJlIHdlIHN1YmplY3Rpbmcgb3Vyc2VsdmVzIHRvIHRoaXM/IFdoeSBjYW4mI3gyNzt0IHdlIGNyZWF0ZSBhbmQgYWNoaWV2ZSBmaW5hbmNpYWwgZnJlZWRvbT8gSSBhbSBub3QgcmVmZXJyaW5nIHRvIGdldHRpbmcgcmljaCBidXQgcmVwbGFjZSBvdXIgc2FsYXJpZXMgb3ZlciB0aW1lIHNvIHdlIGNhbiBiZSB0aGVyZSBmb3Igb3VyIGtpZHMuIFRoZSB0aW1lIHdlIGhhdmUgaXMgc28gbGltaXRlZCBJIHJlYWxseSB3YW50IHRvIHNwZW5kIG1vcmUgb2YgaXQgYXMgYSBmYW1pbHkuIFRoaXMgaGFzIG1vdGl2YXRlZCBtZSB0byByZWFsbHkgcHVzaCBvbiwgZXZldiB3aGVuIHRoaW5ncyBhcmVuJiN4Mjc7dCBlYXN5LjxwPkkmI3gyNzttIG5vdCBzdXJlIHdoZXJlIHRoaXMgd2lsbCBsZWFkIG1lLCBidXQgSSYjeDI3O20gZGV0ZXJtaW5lZCB0byBtYWtlIHRoaXMgd29yay4gQ29taW5nIHVwIHdpdGggaWRlYXMsIHZhbGlkYXRpbmcgdGhvc2UgaWRlYXMsIGFuZCBtYWtpbmcgc29tZXRoaW5nIHRvIHNvbHZlIG15IG93biBhbmQgb3RoZXJzIHByb2JsZW1zLiBJJiN4Mjc7bSBub3Qgc3VyZSB3aGF0IHRoZXkgd2lsbCBiZSBvciBsb29rIGxpa2UsIGJ1dCBJJiN4Mjc7ZCBsaWtlIHRvIHByb2dyYW0gaXQgbXlzZWxmIGFuZCB3b3JrIHdpdGggbXkgd2lmZSB0byBwcm92aWRlIHZhbHVlIHRvIHRob3NlIHdobyBzZWVrIGl0LjxwPlRoaXMgcG9zdCBpcyBteSBpbml0aWFsIHN0YW1wIGFuZCB3aWxsIHNlcnZlIGFzIGEgcmVtaW5kZXIgYW5kIGtlZXAgbWUgbW90aXZhdGVkIHRvIGNvbnRpbnVlIG9uIHdpdGggdGhpcyB0aGlzIHRhc2suIEkgaG9wZSB0aGlzIGhhcyBpbnNwaXJlZCBvdGhlcnMgdG8gYWN0IGFzIHdlIGNhbiBvbmx5IGNvbnRyb2wgb3VyIGRlc3RpbnkgaWYgd2UgYWN0IGZvciBpdC4iLCJ0aW1lIjoxNTc5MDU1NTU0LCJ0aXRsZSI6IlRoZXJlIG11c3QgYmUgbW9yZSB0byB0aGlzIiwidHlwZSI6InN0b3J5In0=
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:47 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051292.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '214'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"bkudria","descendants":0,"id":22051292,"score":2,"time":1579055471,"title":"Delta
+        Airplane Dumps Jet Fuel on Los Angeles Schools","type":"story","url":"https://www.nytimes.com/2020/01/14/us/delta-fuel.html"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:48 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051276.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '271'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"nwrk","descendants":0,"id":22051276,"score":2,"time":1579055296,"title":"BlackRock($7T
+        Assets) CEO Larry Fink:Climate Crisis Will Reshape Finance","type":"story","url":"https://www.nytimes.com/2020/01/14/business/dealbook/larry-fink-blackrock-climate-change.html"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:48 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051274.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '224'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"ha_ha_ha_ha","descendants":0,"id":22051274,"score":1,"time":1579055252,"title":"Console
+        #17: Japanese Pizza Toast and Turtles","type":"story","url":"https://console.substack.com/p/console-17-japanese-pizza-toast-and"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:49 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051271.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '215'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"jamie-vesoft","descendants":0,"id":22051271,"score":2,"time":1579055226,"title":"Show
+        HN: An open-source distributed graph database written in C++","type":"story","url":"https://github.com/vesoft-inc/nebula"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:50 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051264.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '260'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"atlasunshrugged","descendants":1,"id":22051264,"kids":[22051319],"score":1,"time":1579055161,"title":"Equifax
+        to pay consumers $380.5M as part of final breach settlement","type":"story","url":"https://www.cyberscoop.com/equifax-data-breach-settlement/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:50 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051257.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '220'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"killjoywashere","descendants":0,"id":22051257,"score":3,"time":1579055067,"title":"Practical
+        AI #72: How the U.S. Military Thinks about AI (Greg Allen)","type":"story","url":"https://changelog.com/practicalai/72"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:51 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051241.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '274'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"jelliclesfarm","descendants":0,"id":22051241,"score":1,"time":1579054874,"title":"California
+        sues Vinod Khosla over beach access,reviving legal battle","type":"story","url":"https://www.cnbc.com/2020/01/06/california-sues-vinod-khosla-over-martins-beach-access.html"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:52 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051235.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '288'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"theBashShell","descendants":0,"id":22051235,"score":1,"time":1579054818,"title":"664M
+        worth BTC transferred between Binance and Unknown wallets","type":"story","url":"https://tokenhell.com/664m-worth-btc-transferred-between-binance-and-unknown-wallets-is-btc-price-about-to-dump/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:53 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051217.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '235'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"oogali","descendants":0,"id":22051217,"score":1,"time":1579054609,"title":"Google
+        to phase out user-agent strings in Chrome","type":"story","url":"https://www.zdnet.com/article/google-to-phase-out-user-agent-strings-in-chrome/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:54 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051190.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '297'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"RickJWagner","descendants":2,"id":22051190,"kids":[22051213,22051247],"score":1,"time":1579054236,"title":"More
+        jobs than people out of work, something the US economy never experienced","type":"story","url":"https://www.cnbc.com/2018/06/05/there-are-more-jobs-than-people-out-of-work.html"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:54 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051183.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '199'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"everybodyknows","descendants":0,"id":22051183,"score":1,"time":1579054201,"title":"Our
+        Year in Poems","type":"story","url":"https://www.newyorker.com/culture/2019-in-review/our-year-in-poems"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:55 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051165.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '320'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6Im11dGFhZiIsImRlc2NlbmRhbnRzIjowLCJpZCI6MjIwNTExNjUsInNjb3JlIjoxLCJ0ZXh0IjoiSXTigJlzIDIwMjAgd2UgaGF2ZSBBSSwgTUwsIG5vIGZseWluZyBjYXJzIGJ1dCB3ZSBoYXZlIEFsZXhhLiBXaGF0IGFyZSBzb21lIGlubm92YXRpb25zIGluIGhvbWUgc2VjdXJpdHkgdGhhdCBzb2NpZXR5IGNhbiBiZW5lZml0IGZyb20gaW4gMjAyMD8iLCJ0aW1lIjoxNTc5MDU0MDE4LCJ0aXRsZSI6IkFzayBITjogUG9zc2libGUgQUkgQXBwbGljYXRpb25zIGluIEhvbWUgU2VjdXJpdHkgaW4gMjAyMCBhbmQgYmV5b25kIiwidHlwZSI6InN0b3J5In0=
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:56 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051155.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '335'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6InR5cGVmb3JtZXIiLCJkZXNjZW5kYW50cyI6MiwiaWQiOjIyMDUxMTU1LCJraWRzIjpbMjIwNTExOTgsMjIwNTEyNTZdLCJzY29yZSI6MywidGltZSI6MTU3OTA1MzkxNywidGl0bGUiOiJOYXZ5OiBVRk8gZmlsZXMgY291bGQgY2F1c2Ug4oCcZ3JhdmUgZGFtYWdl4oCdIHRvIG5hdGlvbmFsIHNlY3VyaXR5IGlmIHJlbGVhc2VkIiwidHlwZSI6InN0b3J5IiwidXJsIjoiaHR0cHM6Ly93d3cubXNuLmNvbS9lbi11cy9uZXdzL3VzL25hdnktdWZvLWZpbGVzLWNvdWxkLWNhdXNlLWdyYXZlLWRhbWFnZS10by1uYXRpb25hbC1zZWN1cml0eS1pZi1yZWxlYXNlZC9hci1CQllXVXI4In0=
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:57 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051151.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '220'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"infodocket","descendants":0,"id":22051151,"score":1,"time":1579053876,"title":"Understanding
+        Wikipedia Stakeholder Values for Machine Learning-Based System","type":"story","url":"https://arxiv.org/abs/2001.04879"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:57 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051146.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '289'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"khc","descendants":0,"id":22051146,"score":1,"time":1579053790,"title":"Why
+        RB Leipzig is the most hated soccer team in the Bundesliga","type":"story","url":"https://www.espn.com/soccer/german-bundesliga/story/4029702/why-rb-leipzig-is-the-most-hated-soccer-team-in-the-bundesliga"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:58 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051143.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '249'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"khc","descendants":0,"id":22051143,"score":2,"time":1579053738,"title":"The
+        Hong Kong police are using legal acrobatics to search phones","type":"story","url":"https://qz.com/1784726/hong-kong-police-use-vague-warrants-to-crack-into-phones/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:59 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051140.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:49:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '223'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"ngottlieb","descendants":0,"id":22051140,"score":1,"time":1579053677,"title":"Sacred
+        Headwaters: Planetary Crises and Cultural Evolution Newsletter","type":"story","url":"https://sacredheadwaters.substack.com/about"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:49:59 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051123.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '187'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImZlcm9zcyIsImRlc2NlbmRhbnRzIjowLCJpZCI6MjIwNTExMjMsInNjb3JlIjoxLCJ0aW1lIjoxNTc5MDUzNTM2LCJ0aXRsZSI6IlRoZSBDaGFuZ2Vsb2cgMzc2OiBTdGF0ZSBvZiB0aGUg4oCcbG9n4oCdIDIwMTkiLCJ0eXBlIjoic3RvcnkiLCJ1cmwiOiJodHRwczovL2NoYW5nZWxvZy5jb20vcG9kY2FzdC8zNzYifQ==
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:00 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051118.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '249'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImFwcDRzb2Z0IiwiZGVzY2VuZGFudHMiOjEsImlkIjoyMjA1MTExOCwia2lkcyI6WzIyMDUxMTY5XSwic2NvcmUiOjEsInRpbWUiOjE1NzkwNTM1MDMsInRpdGxlIjoidm9rb3NjcmVlbk5HIOKAkyBvcGVuLXNvdXJjZSBkZXNrdG9wIHNjcmVlbmNhc3QgdXRpbGl0eSBiYXNlZCBvbiBRdCBhbmQgR1N0cmVhbWVyIiwidHlwZSI6InN0b3J5IiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL3Zrb2hhdXB0L3Zva29zY3JlZW5ORyJ9
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:01 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051115.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '166'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"acim","descendants":0,"id":22051115,"score":1,"time":1579053477,"title":"Svelte
+        Await Blocks","type":"story","url":"https://www.acim.net/svelte-await-blocks/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:01 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051105.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '211'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"vo2maxer","descendants":0,"id":22051105,"score":1,"time":1579053306,"title":"Ranking
+        ROI of 4,500 U.S. Colleges and Universities","type":"story","url":"https://cew.georgetown.edu/cew-reports/collegeroi/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:02 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051104.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '250'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"mendelmaleh","descendants":0,"id":22051104,"score":1,"time":1579053297,"title":"Delta
+        jet dumps fuel on L.A. schools","type":"story","url":"https://www.nbcnews.com/news/us-news/17-kids-injured-after-delta-jet-dumps-fuel-l-playground-n1115586"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:03 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051097.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '220'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"hhs","descendants":0,"id":22051097,"score":1,"time":1579053203,"title":"Waiting
+        for data: Barriers to executing data use agreements","type":"story","url":"https://science.sciencemag.org/content/367/6474/150.full"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:05 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051091.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '266'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"phate004","descendants":0,"id":22051091,"score":1,"time":1579053147,"title":"UOS,
+        China-made Windows replacement, releases new version","type":"story","url":"https://cntechpost.com/2020/01/15/download-uos-china-made-windows-replacement-releases-new-version/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:05 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051089.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '278'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"hhs","descendants":0,"id":22051089,"score":2,"time":1579053113,"title":"Protest
+        by unpaid Kentucky miners yet another sign of coal''s steep decline","type":"story","url":"https://www.cbsnews.com/news/protest-by-unpaid-kentucky-miners-another-face-of-coals-steep-decline/"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:06 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22051081.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 02:50:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '177'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"gwbas1c","descendants":0,"id":22051081,"score":1,"time":1579053049,"title":"The
+        No Asshole Rule","type":"story","url":"https://en.wikipedia.org/wiki/The_No_Asshole_Rule"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 02:50:07 GMT
+recorded_with: VCR 5.0.0

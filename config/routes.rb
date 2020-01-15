@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     resources :relevant_comments, only: %i[index], constraints: { format: 'js' }
   end
 
+  resources :stories, only: %[index]
+
   root to: 'top_stories#index'
 end
