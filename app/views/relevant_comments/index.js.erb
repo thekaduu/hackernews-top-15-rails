@@ -1,4 +1,4 @@
-var story = $('#story-<%= params[:top_story_id] %>');
+var story = $('#story-<%= params[:story_id] %>');
 
 story
   .removeClass('collapsed')
@@ -9,11 +9,11 @@ story.find('a.show-comments')
   .addClass('hide-comments')
   .html('- Hide most relevant comments');
 
-$('#story-<%= params[:top_story_id] %>').find('a.hide-comments').on('click', function(event) {
+$('#story-<%= params[:story_id] %>').find('a.hide-comments').on('click', function(event) {
   event.preventDefault();
   event.stopPropagation();
 
-  $('#story-<%= params[:top_story_id] %>')
+  $('#story-<%= params[:story_id] %>')
     .addClass('collapsed')
     .siblings('div.comments').remove();
 
