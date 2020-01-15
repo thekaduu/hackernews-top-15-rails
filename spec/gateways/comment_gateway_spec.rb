@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe CommentGateway, type: :model do
-  it { expect(described_class::RELEVANT_COMMENT_SIZE).to eq(20) }
+  it { expect(described_class::RELEVANT_COMMENT_LENGTH).to eq(20) }
 
   describe '#relevant_comments' do
     subject { described_class.new }

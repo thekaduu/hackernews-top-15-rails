@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class CommentGateway < ApplicationGateway
-  RELEVANT_COMMENT_SIZE = 20
+  RELEVANT_COMMENT_LENGTH = 20
 
   def relevant_comments(story_id)
     story_data = item_gateway.find(story_id)
