@@ -16,13 +16,13 @@ class CommentGateway < ApplicationGateway
     [].tap do |comments|
       comment_ids[0...10].each do |comment_id|
         comment = item_gateway.find(comment_id)
-        comments << comment if comment_is_relevant?(comment['text'])
+        comments << comment if comment_is_relevant?(comment)
       end
     end
   end
 
-  def comment_is_relevant?(comment_content)
-    comment_content.length >= RELEVANT_COMMENT_SIZE
+  def comment_is_relevant?(comment)
+    !comment['deleted'] && comment['text'].length >= RELEVANT_COMMENT_SIZE
   end
 
   def item_gateway

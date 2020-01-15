@@ -6,6 +6,19 @@ RSpec.describe CommentGateway, type: :model do
   describe '#relevant_comments' do
     subject { described_class.new }
 
+    context 'when story has deleted comment' do
+      let(:deleted_comment) { 22049993 }
+      let(:story_id) { 22049552 }
+
+      it 'does not include comment in relevant comments' do
+        VCR.use_cassette("story_with_deleted_comment") do
+          result = subject.relevant_comments(story_id)
+          comment_ids = result.map{ |obj| obj['id'] }.compact
+          expect(comment_ids).to_not include(deleted_comment)
+        end
+      end
+    end
+
     context 'when story has any comment' do
       # story with more than 10 relevant comments
       let(:story_id) { 8863 }

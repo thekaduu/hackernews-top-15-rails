@@ -1,0 +1,15 @@
+<% if @comments.any? %>
+  <div class="row comments">
+    <% @comments.each do |comment| %>
+      <div class="ui segment">
+        <p class="metadata">
+          by
+          <%= link_to '#' do %>
+            <%= comment.by %> <%= I18n.l(comment.created_at, format: "%m/%d/%Y %I:%M") %>
+          <% end %>
+        </p>
+        <p><%= comment.text.html_safe %></p>
+      </div>
+    <% end %>
+  </div>
+<% end %>

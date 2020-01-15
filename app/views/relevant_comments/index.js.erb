@@ -1,0 +1,3 @@
+$('#story-<%= params[:top_story_id] %>')
+  .removeClass('collapsed')
+  .after('<%=j render partial: "relevant_comments/comment" %>');

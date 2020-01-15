@@ -1,0 +1,432 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049552.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '274'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"ingve","descendants":22,"id":22049552,"kids":[22049687,22049810,22049601,22049968,22049788,22049907,22049604,22050431,22049993],"score":107,"time":1579038304,"title":"Bug
+        #915: Solved","type":"story","url":"https://nedbatchelder.com//blog/202001/bug_915_solved.html"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:10 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049687.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '345'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"alpb","id":22049687,"kids":[22049736,22050051,22049780,22050498,22049912,22050417],"parent":22049552,"text":"Pretty
+        funny how the entire HN rallied together to solve some github issue on someone&#x27;s
+        personal repo. I&#x27;ll try posting some of my bugs here to see if it&#x27;ll
+        work for me as well.","time":1579039282,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:10 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049810.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '702'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"hinkley","id":22049810,"parent":22049552,"text":"The first really
+        bizarre bug I fixed was a file descriptor bug. The code was streaming data
+        and in some cases the app would just stop processing network packets. He or
+        I figured out that keyboard input would temporarily unblock things.<p>He had
+        a compound conditional without enough parentheses in it, and one of the possible
+        outcomes resulted in fd=1, which is stdin on many operating systems. My general
+        advice now is to assume a 5th grade reading level for math (which consists
+        of +-x&#x2F;), and use parentheses for <i>everything</i> else. Especially
+        if you think yourself to be clever (narrator: he did).","time":1579040276,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:12 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049601.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '264'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"lilSebastian","id":22049601,"parent":22049552,"text":"Previously:
+        <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22028581\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22028581</a>","time":1579038615,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:15 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049968.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1606'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"kjksf","id":22049968,"kids":[22050161,22050543,22050424,22050401,22050131],"parent":22049552,"text":"This
+        bug, the HN thread and how hard it is to fix (<a href=\"https:&#x2F;&#x2F;bugs.python.org&#x2F;issue39318\"
+        rel=\"nofollow\">https:&#x2F;&#x2F;bugs.python.org&#x2F;issue39318</a>) is
+        a pretty good argument against exceptions.<p>A code that looks simple and
+        correct has been hiding a very subtle bug because no one understood the implications
+        of an arbitrary exception being thrown at any point under the caller.<p>And
+        of all the people who looked at the bug not a single one looked at this seemingly
+        simple code and said &quot;oh yeah, that&#x27;s because this code is obviously
+        wrong&quot;. It took someone skilled enough to script gdb to figure out the
+        buggy interactions.<p>So the next time someone makes fun of `if err != nil`,
+        send them the buggy implementation of tempfile.NamedTemporaryFile and ask
+        them to spot the bug.<p>Also, KeyboardInterrupt should not be an exception.
+        It&#x27;s a signal, not an error or exceptional situation that code wants
+        to report to the caller. But once you have a hammer, everything looks like
+        like a nail. In addition to making the code impossible to reason about, no-one
+        can agree what exactly is an exception so they randomly commingle expected
+        errors with exceptional circumstances and, in case of Python, out-of-band
+        signals.<p>(&quot;randomly&quot; as in: why is &quot;open file&quot; throwing
+        an exception when file doesn&#x27;t exist but &quot;find substring&quot; returns
+        -1 when substring doesn&#x27;t exist?)","time":1579041474,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:16 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049788.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '297'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"ehsankia","id":22049788,"parent":22049552,"text":"So the final
+        answer is basically, there&#x27;s nothing the author can do. The problem was
+        half with the user&#x27;s code mocking with internals, and half with downstream
+        library not cleaning up properly.","time":1579040082,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:17 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049907.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '255'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"yhoiseth","id":22049907,"parent":22049552,"text":"This made
+        me laugh out loud:<p>&gt; Hacker News can be helpful, in spite of the tangents
+        about shell redirection, authorship attribution, and GitHub monoculture.","time":1579041056,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:17 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049604.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '106'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"egdod","id":22049604,"parent":22049552,"text":"That was quick.","time":1579038638,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:18 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22050431.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '202'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"by":"gjs278","dead":true,"id":22050431,"parent":22049552,"text":"godawful
+        title. I refuse to read this. put a fucking description of what software project
+        this is.","time":1579045633,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:19 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item/22049993.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 15 Jan 2020 00:11:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '83'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: '{"deleted":true,"id":22049993,"parent":22049552,"time":1579041644,"type":"comment"}'
+    http_version: 
+  recorded_at: Wed, 15 Jan 2020 00:11:20 GMT
+recorded_with: VCR 5.0.0
