@@ -36,7 +36,7 @@ gem 'semantic-ui-sass', '2.4.2.0'
 
 gem 'faraday', '1.0.0'
 
-gem 'sidekiq'
+gem 'sidekiq', '6.0.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -62,4 +62,5 @@ group :test do
   gem 'launchy', '~> 2.4'
   gem 'vcr', '~> 5.0'
   gem 'webmock', '~> 3.7'
+  gem 'rspec-sidekiq', '~> 3.0'
 end
