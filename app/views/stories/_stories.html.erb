@@ -1,0 +1,30 @@
+<% if stories.any? %>
+  <% stories.each do |story| %>
+    <article class="row collapsed" id="story-<%= story.id %>">
+      <div class="column">
+        <h2><%= story.title %></h2>
+        <p class="metadata">
+          by
+          <%= link_to '#', target: '_blank' do %>
+            <%= story.by %> <%= I18n.l(story.created_at, format: "%m/%d/%Y %I:%M") %>
+            <% end %>
+        </p>
+        <p class="metadata comments"><%= story.kids&.count || 0 %> comments</p>
+        <%= link_to Rails.application.routes.url_helpers.story_relevant_comments_path(story.id), data: { remote: true }, class: 'show-comments' do %>
+          + Show most relevant comments
+        <% end %>
+      </div>
+    </article>
+  <% end %>
+<% else %>
+  <div class="row">
+    <div class="column">
+      <div class="ui  segment">
+        <div class="ui icon header">
+          <i class="archive icon"></i>
+          Sorry! Couldn't find stories...
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

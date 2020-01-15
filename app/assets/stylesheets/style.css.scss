@@ -63,6 +63,10 @@ a {
   border-radius: 0 !important;
   box-shadow: 0 0 0 0 !important;
   border: 0;
+
+  &.loading {
+    padding: 5rem;
+  }
 }
 
 nav.ui.segment {
