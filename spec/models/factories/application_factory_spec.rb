@@ -16,7 +16,7 @@ RSpec.describe ApplicationFactory do
   end
 
   describe '#call' do
-    subject { described_class.new([]) }
+    subject { described_class.new([{ 'a' => 'b' }]) }
 
     it 'raises NotImplementedError' do
       expect { subject.call }.to raise_error(NotImplementedError)

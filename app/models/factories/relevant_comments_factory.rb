@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-class StoriesFactory < ApplicationFactory
+class RelevantCommentsFactory < ApplicationFactory
   private
 
   def blueprint
-    Story
+    Comment
   end
 end
