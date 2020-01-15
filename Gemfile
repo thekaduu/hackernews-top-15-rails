@@ -63,4 +63,5 @@ group :test do
   gem 'vcr', '~> 5.0'
   gem 'webmock', '~> 3.7'
   gem 'rspec-sidekiq', '~> 3.0'
+  gem 'action-cable-testing', '~> 0.6'
 end
