@@ -10,7 +10,6 @@ consumer.subscriptions.create("StoryChannel", {
   },
 
   received(data) {
-    console.log(data);
     let query = $('#query').val();
 
     if (query != '') {
