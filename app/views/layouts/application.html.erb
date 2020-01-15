@@ -16,18 +16,22 @@
       </nav>
 
       <div class="ui segment" id="search-area">
-        <form class="ui form">
+        <%= form_tag stories_path, method: :get do %>
           <div class="ui fluid icon input">
-            <input type="text" placeholder="Search stories">
+            <%= text_field_tag 'query', params[:query], placeholder: 'Search stories' %>
             <i class="search link icon"></i>
           </div>
-        </form>
+        <% end %>
       </div>
 
       <div class="ui grid" id="stories">
         <div class="row">
           <div class="column">
-            <h1>Top 15 Hacker News</h1>
+            <% if params[:query] %>
+              <h1>Hacker News</h1>
+            <% else %>
+              <h1>Top 15 Hacker News</h1>
+            <% end %>
           </div>
         </div>
 
