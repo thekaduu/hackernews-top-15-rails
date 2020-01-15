@@ -2,6 +2,8 @@
 
 Este projeto é um _pet project_ e tem o objetivo de demonstrar minhas capacidades de modelagem e a experimentação de novas tecnologias usando Ruby on Rails.
 
+URL do projeto hospedado: https://hackernews-top-15-rails.herokuapp.com/
+
 ## Objetivo
 
 Como um programador que gostaria de me manter atualizado, utilizo bastante o Hacker News (https://news.ycombinator.com), que é um portal onde é possível discutir histórias relevantes de tecnologia publicadas na internet.
