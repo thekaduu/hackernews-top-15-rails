@@ -1,6 +1,6 @@
 class StoriesController < ApplicationController
   def index
-    @stories = SearchStories.call(query_params)
+    FetchStoriesJob.perform_later(query_params)
   end
 
   private

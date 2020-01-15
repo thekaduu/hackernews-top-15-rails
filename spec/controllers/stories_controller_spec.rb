@@ -4,38 +4,34 @@ RSpec.describe StoriesController do
   describe 'GET index' do
     context 'when query is present' do
       it 'renders index template' do
-        allow(SearchStories).to receive(:call)
         get :index, params: { query: 'abc' }
         expect(response).to render_template('stories/index')
       end
 
-      it 'assigns @stories' do
-        allow(SearchStories).to receive(:call) { [] }
+      it 'does not assign @stories' do
         get :index, params: { query: 'abc' }
-        expect(assigns(:stories)).to eq([])
+        expect(assigns(:stories)).to be_nil
       end
 
-      it 'invokes SearchStories.call' do
-        expect(SearchStories).to receive(:call).with('abc')
+      it 'invokes FetchStoriesJob.perform_later' do
+        expect(FetchStoriesJob).to receive(:perform_later).with('abc')
         get :index, params: { query: 'abc' }
       end
     end
 
     context 'when query is not present' do
       it 'renders index template' do
-        allow(SearchStories).to receive(:call)
         get :index
         expect(response).to render_template('stories/index')
       end
 
-      it 'assigns @stories' do
-        allow(SearchStories).to receive(:call) { [] }
+      it 'does not assign @stories' do
         get :index
-        expect(assigns(:stories)).to eq([])
+        expect(assigns(:stories)).to be_nil
       end
 
-      it 'invokes SearchStories.call' do
-        expect(SearchStories).to receive(:call).with('')
+      it 'invokes FetchStoriesJob.perform_later' do
+        expect(FetchStoriesJob).to receive(:perform_later).with('')
         get :index
       end
     end
