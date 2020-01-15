@@ -22,7 +22,7 @@ class CommentGateway < ApplicationGateway
   end
 
   def comment_is_relevant?(comment)
-    !comment['deleted'] && comment['text'].length >= RELEVANT_COMMENT_SIZE
+    !comment['deleted'] && comment['text'].length >= RELEVANT_COMMENT_LENGTH
   end
 
   def item_gateway
