@@ -9,7 +9,7 @@
           <% end %>
       </p>
       <p class="metadata comments"><%= story.kids&.count || 0 %> comments</p>
-      <%= link_to top_story_relevant_comments_path(story.id), data: { remote: true } do %>
+      <%= link_to top_story_relevant_comments_path(story.id), data: { remote: true }, class: 'show-comments' do %>
         + Show most relevant comments
       <% end %>
     </div>
