@@ -38,6 +38,10 @@ gem 'faraday', '1.0.0'
 
 gem 'sidekiq', '6.0.4'
 
+# Fix bug with Sidekiq Web and Rack
+# https://github.com/rack/rack/pull/1428
+gem 'rack', github: 'rack/rack', :ref => 'f690bb71425aa31d7b9b3113829af773950d8ab5'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
