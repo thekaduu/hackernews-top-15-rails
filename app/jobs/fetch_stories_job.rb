@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class FetchStoriesJob < ActiveJob::Base
   queue_as 'stories'
 
