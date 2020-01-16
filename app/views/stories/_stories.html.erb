@@ -9,9 +9,12 @@
             <%= story.by %> <%= I18n.l(story.created_at, format: "%m/%d/%Y %I:%M") %>
             <% end %>
         </p>
-        <p class="metadata comments"><%= story.kids&.count || 0 %> comments</p>
-        <%= link_to Rails.application.routes.url_helpers.story_relevant_comments_path(story.id), data: { remote: true }, class: 'show-comments' do %>
-          + Show most relevant comments
+        <% kids_count = story.kids&.count || 0 %>
+        <p class="metadata comments"><%= kids_count %> comments</p>
+        <% if kids_count > 0 %>
+          <%= link_to Rails.application.routes.url_helpers.story_relevant_comments_path(story.id), data: { remote: true }, class: 'show-comments' do %>
+            + Show most relevant comments
+          <% end %>
         <% end %>
       </div>
     </article>
