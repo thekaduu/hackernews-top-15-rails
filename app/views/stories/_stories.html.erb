@@ -5,9 +5,9 @@
         <h2><%= story.title %></h2>
         <p class="metadata">
           by
-          <%= link_to '#', target: '_blank' do %>
+          <a href="<%= story.url %>" target="_blank">
             <%= story.by %> <%= I18n.l(story.created_at, format: "%m/%d/%Y %I:%M") %>
-            <% end %>
+          </a>
         </p>
         <% kids_count = story.kids&.count || 0 %>
         <p class="metadata comments"><%= kids_count %> comments</p>
