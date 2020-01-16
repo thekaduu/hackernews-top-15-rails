@@ -1,6 +1,6 @@
 # Hacker News Top 15 Stories
 
-Este projeto é um _pet project_ e tem o objetivo de demonstrar minhas capacidades de modelagem e a experimentação de novas tecnologias usando Ruby on Rails.
+Este projeto é um _pet project_ e tem o objetivo de demonstrar capacidade de modelagem e a experimentação de novas tecnologias usando Ruby on Rails.
 
 URL do projeto hospedado: https://hackernews-top-15-rails.herokuapp.com/
 
@@ -10,7 +10,7 @@ Como um programador que gostaria de me manter atualizado, utilizo bastante o Hac
 
 O problema é que o portal Hacker News não é nada intuitivo, é complicado de encontrar coisas, e as discussões ficam muito perdidas.
 
-Gostaria de construir um site, que lista as top 15 histórias do Hacker News e mostra apenas os comentários relevantes dessas histórias. Além disso me permita buscar por alguma palavra chave.
+Gostaria de construir um site, que lista as _top_ 15 histórias do Hacker News e mostra apenas os comentários relevantes dessas histórias. Além disso me permita buscar por alguma palavra chave.
 
 ![Template](https://raw.githubusercontent.com/eduardohertz/hackernews-top-15-rails/master/docs/site-template.png?token=AAA7V2GEJYLPU2Y2JYEHGW26D6R5Q)
 
@@ -38,7 +38,7 @@ Gostaria de construir um site, que lista as top 15 histórias do Hacker News e m
 
 #### Passos
 
-1) Baixe o projeto e instale as gems e os pacotes npm usando `yarn`:
+1) Baixe o projeto e instale as _gems_ e os pacotes npm usando `yarn`:
 
 ```bash
 $ bundle install -j4 && yarn install
@@ -50,7 +50,7 @@ $ bundle install -j4 && yarn install
 $ cp .env.example .env
 ```
 
-3) Faça o setup do banco de dados:
+3) Faça o _setup_ do banco de dados:
 
 ```bash
 $ rails db:setup
@@ -70,7 +70,7 @@ $ bundle exec foreman -f Procfile.development
 $ heroku git:remote -a hackernews-top-15-rails -r heroku
 ```
 
-2) Realize deploy:
+2) Realize _deploy_:
 
 ```
 $ git push heroku master
@@ -78,8 +78,13 @@ $ git push heroku master
 
 ## Suíte de teste
 
-Após realizar o setup da aplicação, basta executar:
+Após realizar o _setup_ da aplicação, basta executar:
 
 ```
 $ bundle exec rspec spec/
 ```
+
+## TODO
+- [ ] Criar uma camada de _cache_ temporário para evitar requisições desnecessárias à API. Este _cache_ pode ser feito usando Redis ou PostgreSQL
+- [ ] Refatorar views componetizando elementos em comum
+- [ ] Refatorar busca de comentários para usar o ActionCable
