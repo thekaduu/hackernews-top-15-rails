@@ -12,7 +12,9 @@
   <body>
     <main>
       <nav class="ui segment">
-        <%= image_tag "logo.jpg", width: 300, height: 60 %>
+        <%= link_to root_path do %>
+          <%= image_tag "logo.jpg", width: 300, height: 60 %>
+        <% end %>
       </nav>
 
       <div class="ui segment" id="search-area">
