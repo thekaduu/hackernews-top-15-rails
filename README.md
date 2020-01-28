@@ -88,3 +88,4 @@ $ bundle exec rspec spec/
 - [ ] Criar uma camada de _cache_ temporário para evitar requisições desnecessárias à API. Este _cache_ pode ser feito usando Redis ou PostgreSQL
 - [ ] Refatorar views componetizando elementos em comum
 - [ ] Refatorar busca de comentários para usar o ActionCable
+- [ ] Refatorar CSS para utilizar BEM
