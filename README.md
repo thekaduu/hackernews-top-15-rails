@@ -89,3 +89,4 @@ $ bundle exec rspec spec/
 - [ ] Refatorar views componetizando elementos em comum
 - [ ] Refatorar busca de comentários para usar o ActionCable
 - [ ] Refatorar CSS para utilizar BEM
+- [ ] Configurar corretamente o output dos logs para o formato `key=value`
